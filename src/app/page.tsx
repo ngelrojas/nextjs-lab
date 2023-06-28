@@ -7,6 +7,7 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp; THIS PAGE IS NOW, DISPLAYED IN JENKIS JOB PIPELINE
+          OK WE ARE AN ERROR, BUT WE FIX IT
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
