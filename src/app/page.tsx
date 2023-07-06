@@ -1,13 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
+        <h1 className={styles.title}>
+            Welcome to <a href="https://nextjs.org">Next.js!</a>
+          </h1>
+        <p>``
           this is a new MESSAGES FOR THIS PROJECTS
           <code className={styles.code}>src/app/page.tsx</code>
+
         </p>
         <div>
           <a
@@ -81,11 +85,12 @@ export default function Home() {
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
+          
         >
-          <h2>
+          <h2 role='link'>
             Deploy <span>-&gt;</span>
           </h2>
-          <p>
+          <p role='contentinfo'>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
