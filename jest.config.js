@@ -1,6 +1,6 @@
 module.exports = {
     testPathIgnorePatterns: ['/node_modules/', '/.next/'],
-    setupFilesAfterEnv: ['<rootDir>/jest.config.js'],
+    setupFilesAfterEnv: ['<rootDir>/setup.config.js'],
     moduleNameMapper: {
       '\\.(scss|less|sass|css)$': 'identity-obj-proxy',
     },
